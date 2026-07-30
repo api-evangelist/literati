@@ -1,0 +1,8 @@
+# Our security address
+Contact: mailto:security@literati.com
+
+# Expiration
+Expires: 2035-03-28T00:00:00Z
+
+# Our OpenPGP key
+Encryption: https://literati.com/.well-known/security-pgp-key.txt

@@ -1,0 +1,44 @@
+generated: '2026-07-19'
+method: searched
+source: https://literati.com/.well-known/
+hosts:
+- host: https://literati.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    file: literati-security.txt
+    standard: RFC 9116
+  - path: /.well-known/security-pgp-key.txt
+    status: 200
+    note: OpenPGP key referenced by the Encryption field of security.txt; not saved
+      verbatim in this repo
+  - path: /.well-known/apple-app-site-association
+    status: 200
+    note: Universal Links association for the com.literati.kids and com.literati.clubs
+      iOS apps; consumer deep-linking, not an API discovery document
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+- host: https://openbook.literati.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+- host: https://efairs.literati.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+notes: Literati publishes no OIDC/OAuth discovery, no api-catalog and no ai-plugin
+  manifest. The only API-Evangelist-relevant well-known document is an RFC 9116 security.txt.
