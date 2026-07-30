@@ -1,22 +1,98 @@
 aid: literati
 name: Literati
-description: Literati is a company surfaced as a portfolio company of general-catalyst and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Literati is an Austin, Texas based children''s book company founded by
+  Jessica Ewing that operates three connected consumer and school businesses: personalized
+  monthly Book Clubs for Kids that ship five curated books matched to a child''s reading
+  level and interests starting at $11.95 per month, Clubs for Classrooms for teachers,
+  and a school book fair business (in-person and online) run through the OpenBook
+  coordinator dashboard at openbook.literati.com and the year-round Literati Store,
+  which returns a share of proceeds to participating schools. The company draws on
+  150+ publishers, combines expert curation with data science to personalize book
+  selection, and reports more than one million books donated to Title I schools and
+  underserved communities since 2019. Literati publishes no public developer API,
+  developer portal, or SDKs; its public technical surface is limited to consumer and
+  school-facing web applications, iOS and Android apps, and an RFC 9116 security.txt
+  vulnerability-reporting contact.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://efairs-assets.literati.com/literati/wp-content/uploads/2023/10/13020246/Literati_KidsOG_Overhead_Product_0522.jpg
 url: https://raw.githubusercontent.com/api-evangelist/literati/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - general-catalyst
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-api
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Books
+- Publishing
+- Education
+- Children
+- Subscription Commerce
+- Ecommerce
+- Fundraising
+- Schools
+- Reading
 apis: []
+common:
+- type: Website
+  url: https://literati.com/
+- type: About
+  url: https://literati.com/aboutus/
+- type: Support
+  url: https://help.literati.com/
+- type: HelpCenter
+  url: https://help.literati.com/
+- type: Contact
+  url: https://literati.com/contact/
+- type: Blog
+  url: https://literati.com/best-kids-books/
+- type: BlogRSS
+  url: https://literati.com/best-kids-books/feed/
+- type: Pricing
+  url: https://literati.com/kids/
+- type: SignUp
+  url: https://literati.com/kids/signup/
+- type: Login
+  url: https://literati.com/kids/login/
+- type: TermsOfService
+  url: https://literati.com/p/terms-of-service/
+- type: PrivacyPolicy
+  url: https://literati.com/privacy/
+- type: Careers
+  url: https://literati.careers/
+- type: SecurityTxt
+  url: well-known/literati-security.txt
+- type: WellKnown
+  url: well-known/literati-well-known.yml
+- type: VulnerabilityDisclosure
+  url: security/literati-vulnerability-disclosure.yml
+- type: Security
+  url: https://literati.com/.well-known/security.txt
+- type: DomainSecurity
+  url: security/literati-domain-security.yml
+- type: LLMsTxt
+  url: llms/literati-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
