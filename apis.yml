@@ -13,6 +13,17 @@ description: 'Literati is an Austin, Texas based children''s book company founde
   developer portal, or SDKs; its public technical surface is limited to consumer and
   school-facing web applications, iOS and Android apps, and an RFC 9116 security.txt
   vulnerability-reporting contact.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
