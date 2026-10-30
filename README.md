@@ -64,20 +64,87 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Literati is an Austin, Texas children's book company founded by Jessica Ewing. It runs personalized monthly Book Clubs for Kids (five curated books matched to a child's reading level, from $11.95/month), Clubs for Classrooms for teachers, and a school book fair business — in-person and online — operated through the OpenBook coordinator dashboard, alongside a year-round Literati Store that returns a share of proceeds to schools.
+Literati is an Austin, Texas based children's book company founded by Jessica Ewing that operates three connected consumer and school businesses: personalized monthly Book Clubs for Kids that ship five curated books matched to a child's reading level and interests starting at $11.95 per month, Clubs for Classrooms for teachers, and a school book fair business (in-person and online) run through the OpenBook coordinator dashboard at openbook.literati.com and the year-round Literati Store, which returns a share of proceeds to participating schools. The company draws on 150+ publishers, combines expert curation with data science to personalize book selection, and reports more than one million books donated to Title I schools and underserved communities since 2019. Literati publishes no public developer API, developer portal, or SDKs; its public technical surface is limited to consumer and school-facing web applications, iOS and Android apps, and an RFC 9116 security.txt vulnerability-reporting contact.
 
-Backed by: general-catalyst
+**Areas:** Company · Books · Publishing · Education · Children · Subscription Commerce · E-Commerce · Fundraising · Schools · Reading
 
-## API surface
+## Literati on APIs.io
 
-Literati publishes **no public API** as of 2026-07-19: no developer portal, no API reference, no OpenAPI/AsyncAPI/GraphQL description, no first-party SDKs, no CLI, no MCP server, no public webhooks, no status page, and no trust center. The `github.com/literati` organization is an unrelated digital-humanities project, not this company.
+Everything profiled for Literati is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/literati/](https://apis.io/providers/literati/)** — or go straight to one of the APIs or properties below.
 
-## Artifacts
+### Published properties
 
-| Artifact | File | Method |
-|---|---|---|
-| security.txt (RFC 9116) | `well-known/literati-security.txt` | searched |
-| Well-known index | `well-known/literati-well-known.yml` | searched |
-| Vulnerability disclosure | `security/literati-vulnerability-disclosure.yml` | searched |
-| Domain security | `security/literati-domain-security.yml` | probed |
-| llms.txt | `llms/literati-llms.txt` | generated |
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Literati Domain Security](https://apis.io/security/literati/literati-domain-security/)
+- [Literati Vulnerability Disclosure](https://apis.io/security/literati/literati-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://literati.com/)
+- [Pricing](https://literati.com/kids/)
+- [Sign up](https://literati.com/kids/signup/)
+- [Support](https://help.literati.com/)
+- [Blog](https://literati.com/best-kids-books/)
+- [Security](https://literati.com/.well-known/security.txt)
+- [Terms of service](https://literati.com/p/terms-of-service/)
+- [Privacy policy](https://literati.com/privacy/)
+
+## API Evangelist rating
+
+**Kin Score 16.8** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 44.7 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 19.6** — Education & Research
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/literati/](https://apis.io/providers/literati/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Literati: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/literati/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
